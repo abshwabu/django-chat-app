@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+ASGI_APPLICATION = 'mywebsite.asgi.application'
 # Application definition
 
 INSTALLED_APPS = [
