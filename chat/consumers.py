@@ -12,4 +12,4 @@ class ChatConsumer(WebsocketConsumer):
                 'message':'you are connected'
             })
         )
-        return super().connect()
+       
