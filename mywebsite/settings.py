@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-ASGI_APPLICATION = 'mywebsite.asgi.application'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'chat'
 ]
-
+ASGI_APPLICATION = "mywebsite.asgi.application"
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
