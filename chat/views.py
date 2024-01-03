@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def loby(request):
-   return render(request,'loby.html')
+def lobby(request):
+   return render(request,'lobby.html')

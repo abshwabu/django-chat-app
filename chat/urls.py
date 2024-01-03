@@ -3,5 +3,5 @@ from chat import views
 
 
 urlpatterns = [
-    path('',views.loby),
+    path('',views.lobby),
 ]
